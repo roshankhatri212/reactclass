@@ -1,4 +1,4 @@
-const hobbies = ["Freelancer", "Software Developer", "Cricket Lover"];
+const hobbies = ["Student", "Web development enthusiast", "Auto enthusiast"];
 
 let count = 0;
 let index = 0;
@@ -43,7 +43,7 @@ document.querySelector(".header__contact").addEventListener("click", () => {
 
 //download click
 document.querySelector(".header__download").addEventListener("click", () => {
-  window.open("./RajadShakyaCV.pdf", "_blank");
+  window.open("./ROSHANKHATRICV.pdf", "_blank");
 });
 
 //form handle
@@ -61,9 +61,9 @@ const onSubmit = () => {
   } else {
     // Email.send({
     //   Host: "smtp.gmail.com",
-    //   Username: "shakyarajad7@gmail.com",
+    //   Username: "roshankhatri212@gmail.com",
     //   Password: "",
-    //   To: "shakyarajad1@gmail.com",
+    //   To: "roshankhatri212@gmail.com",
     //   From: email.value,
     //   Subject: `Message from ${name.value}`,
     //   Body: message.value,
